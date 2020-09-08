@@ -1,0 +1,46 @@
+.home{
+    background-color: #10aeb5;
+    height: 100vh;
+
+    h1{
+        color: #ffffff;
+        text-align: center;
+        padding-top: 80px;
+
+    }
+
+    .wrap{
+        width: 800px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        padding: 20px 20px 50px ;
+        .nav{
+            border-bottom: 1px solid lightgrey;
+            margin-bottom: 30px;
+            line-height: 50px;
+            a{
+                display: inline-block;
+                width: 25%;
+                text-align: center;
+                color: #000000;
+                font-size: 20px;
+
+                &.checked {
+                    color: #10aeb5;
+                    font-weight: bolder;
+                }
+                
+            }
+        }
+
+        p {
+            color: lightgray;
+        }
+
+        .nav-link {
+            display: inline-block;
+            margin-top: 30px;
+        }
+    }
+}
